@@ -256,6 +256,9 @@ class AdvancedOSINTTool:
             return None
 
 def main():
+    print(r"""
+                                                                                                            
+    """)
     print("Advanced OSINT Tool - For Red Team Operations")
     print("=" * 55)
     
@@ -303,5 +306,4 @@ def main():
         print("\n[-] Failed to save report")
 
 if __name__ == "__main__":
-
     main()
