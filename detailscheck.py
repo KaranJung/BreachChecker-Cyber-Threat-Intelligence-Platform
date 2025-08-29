@@ -256,15 +256,6 @@ class AdvancedOSINTTool:
             return None
 
 def main():
-    print(r"""
-   ___   _____  ___   _   _ ________   __
-  / _ \ /  ___|/ _ \ | \ | |_   _\ \ / /
- / /_\ \\ `--./ /_\ \|  \| | | |  \ V / 
- |  _  | `--. \  _  || . ` | | |   \ /  
- | | | |/\__/ / | | || |\  | | |   | |  
- \_| |_/\____/\_| |_/\_| \_/ \_/   \_/  
-                                                                                                            
-    """)
     print("Advanced OSINT Tool - For Red Team Operations")
     print("=" * 55)
     
@@ -312,4 +303,5 @@ def main():
         print("\n[-] Failed to save report")
 
 if __name__ == "__main__":
+
     main()
